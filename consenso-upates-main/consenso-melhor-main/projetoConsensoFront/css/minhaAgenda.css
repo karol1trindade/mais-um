@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+/* NAVEGAÇÃO */
+.header-geral {
+    background-color: #0057DF;
+    height: 80px;
+}
+.navbar{
+    background-color:#0057DF;
+}
+.logo a {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    top: 10px;
+
+
+}
+
+#meus-servicos {
+    height: 60px;
+    font-weight: 700;
+    line-height: 2;
+    color: white;
+    position: relative;
+    top: 10px;  
+    font-size: 20px;
+
+
+}
+
+#minha-agenda {
+    color: #FFB800 !important;
+    border-bottom: 7px solid #FFB800;
+    font-weight: 700;
+    line-height: 2;
+    position: relative;
+    top: 10px;
+    padding-bottom: 15px;
+    font-size: 20px;
+
+
+}
+
+.card-title {
+    font-weight: 300;
+}
+.titulo-card{
+    font-family:'Encode Sans', sans-serif; 
+    font-weight: 400;
+}
+.texto-card{
+    font-family:'Encode Sans', sans-serif; 
+    font-weight: 400;
+    margin: 0%;
+}
+
+
+/*  MAIN   */
+
+main {
+    height: 70vh;
+}
+
+/* FORMULARIO */
+.card-title{
+    font-family:'Encode Sans', sans-serif; 
+    font-weight: 400;
+    color: #5A5A5A;
+}
+
+
+.agendamentos-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: #D9F8FF;
+    border: 2px solid #5A5A5A;
+    border-radius: 10px;
+    justify-content: space-between;
+    font-family:'Encode Sans', sans-serif; 
+    font-weight: 400;
+    color: #5A5A5A;
+
+}
+
+.main-container {
+    width: 27%;
+    min-width: 280px;
+}
+
+
+/*
+p {
+    margin: 0px !important; ISSO QUE ESTA DEIXANDO O FOOTER BUGADO!!
+}
+*/
+
+.img-icon {
+    width: 14px;
+}
+
+
+/*   footer    */
+.img-footer {
+    width: 200px;
+}
+
+.opcao:hover {
+    color: rgb(174, 174, 174);
+}
+
+.footer-item {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+
+}
+
+.texto-footer {
+    font-family:'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #00213E;
+    text-align: end;
+    line-height: 5px;
+}
+.texto1{
+    padding-top: 15px;
+}
